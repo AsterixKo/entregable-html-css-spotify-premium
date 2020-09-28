@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header-content {
+    background-color: rgb(80, 155, 245);
+}
+
+.ul-menu {
+    display: inline-flex;
+    list-style: none;
+}
+
+.li-menu {
+    display: inline-block;
+    font-size: 16px;
+    line-height: inherit;
+    letter-spacing: 0;
+}
+
+.link-menu {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 28px 17px;
+}

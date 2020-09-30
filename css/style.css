@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: spotify-circular;
+    src: url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff2') format('woff2'), url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Book.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: spotify-circular;
+    src: url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.woff2') format('woff2'), url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: spotify-circular;
+    src: url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.woff2') format('woff2'), url('https://encore.scdn.co/1.2.3/CircularSpotify-UI-Latin-OS2v3-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: fallback;
+}
+
 .header-content {
     background-color: rgb(80, 155, 245);
 }
@@ -33,7 +57,7 @@
     color: #fff;
 }
 
-.view-plans-header {
+.font-view-plans-header {
     font-size: 80px;
     line-height: 1.2;
     margin: 0px;
@@ -45,7 +69,7 @@
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
-.view-plans-header-secondary {
+.font-view-plans-header-secondary {
     font-size: 30px;
     margin-bottom: 0px;
     line-height: 1.5;
@@ -59,7 +83,7 @@
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
-.view-plans-button-link {
+.font-view-plans-button-link {
     text-decoration: none !important;
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
     border: 0px;
@@ -100,8 +124,8 @@
     color: #fff;
 }
 
-.student-premium-header {
-    font-size: 80px;
+.font-student-premium-header {
+    font-size: 48px;
     line-height: 1.2;
     margin: 0px;
     padding: 0px;
@@ -112,8 +136,8 @@
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
-.student-premium-header-secondary {
-    font-size: 30px;
+.font-student-premium-header-secondary {
+    font-size: 24px;
     margin-bottom: 0px;
     line-height: 1.5;
     /* margin: 15px 0px 0px; */
@@ -121,12 +145,12 @@
     width: 100%;
     max-width: 100%;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 400;
     /* font-size: 24px; */
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
-.student-premium-header-third {
+.font-student-premium-header-third {
     font-size: 24px;
     margin-bottom: 0px;
     line-height: 1.5;
@@ -135,9 +159,10 @@
     display: inline-block;
     font-weight: 400;
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
-.student-premium-button-link {
+.font-student-premium-button-link {
     text-decoration: none !important;
     font-family: spotify-circular, Helvetica, Arial, sans-serif;
     border: 0px;

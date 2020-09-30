@@ -93,3 +93,71 @@
     font-size: 12px;
     font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
 }
+
+/* student-premium */
+.section-student-premium {
+    background-color: #A789BE;
+    color: #fff;
+}
+
+.student-premium-header {
+    font-size: 80px;
+    line-height: 1.2;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.student-premium-header-secondary {
+    font-size: 30px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    /* margin: 15px 0px 0px; */
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    font-weight: 600;
+    /* font-size: 24px; */
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.student-premium-header-third {
+    font-size: 24px;
+    margin-bottom: 0px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.student-premium-button-link {
+    text-decoration: none !important;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    border: 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 17px 48px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

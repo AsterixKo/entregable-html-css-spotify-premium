@@ -566,13 +566,21 @@
 .global-container{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 80px auto auto auto 80px;
     grid-template-areas: "header"
+    "view-plans"
+    "estudent-premium"
     "main"
     "footer";
 }
 .header-content{
     grid-area: header;
+}
+.section-view-plans{
+    grid-area: view-plans;
+}
+.section-student-premium{
+    grid-area: estudent-premium;
 }
 .main-content{
     grid-area: main;
@@ -590,4 +598,22 @@
     justify-content: space-between;
     flex:1;
     max-width: 1170px;
+}
+.section-view-plans{
+    display:flex;
+    justify-content: center;
+}
+.section-view-plans-internal{
+    /* display: flex;
+    justify-content: space-between;
+    flex:1; */
+    max-width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.view-plans-legal-link{
+    margin-top: 100px;
+}
+.view-plans-header-secondary{
+    margin: 30px 0px;
 }

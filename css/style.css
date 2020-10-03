@@ -617,3 +617,23 @@
 .view-plans-header-secondary{
     margin: 30px 0px;
 }
+
+.section-student-premium{
+    display:flex;
+    justify-content: center;
+}
+.section-student-premium-internal{
+    display: flex;
+    /* justify-content: space-between; */
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1170px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.student-premium-header, .student-premium-header-secondary, .student-premium-header-third {
+    margin-bottom: 30px;
+}
+
+/* ---------main-------- */

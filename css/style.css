@@ -255,8 +255,8 @@
 
 .why-premium-some-reason{
     /* RECORDAR QUITAR ESTOS BORDES */
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    /* border-radius: 10px 10px 0px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px; */
 }
 
 /* SELECT PREMIUM */
@@ -566,10 +566,11 @@
 .global-container{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px auto auto auto 80px;
+    grid-template-rows: 80px auto auto auto auto 80px;
     grid-template-areas: "header"
     "view-plans"
     "estudent-premium"
+    "why-premium"
     "main"
     "footer";
 }
@@ -581,6 +582,9 @@
 }
 .section-student-premium{
     grid-area: estudent-premium;
+}
+.section-why-premium{
+    grid-area: why-premium;
 }
 .main-content{
     grid-area: main;
@@ -636,4 +640,31 @@
     margin-bottom: 30px;
 }
 
-/* ---------main-------- */
+/* ---------why premium-------- */
+.section-why-premium{
+    display:flex;
+    justify-content: center;
+}
+.section-why-premium-internal{
+    /* display: flex;
+    justify-content: space-between;*/
+    flex:1; 
+    max-width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.why-premium-reasons{
+    display: flex;
+}
+.why-premium-some-reason{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+}
+.why-premium-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}

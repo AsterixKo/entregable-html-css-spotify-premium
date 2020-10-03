@@ -274,6 +274,19 @@
     color: #222326;
 }
 
+.premium-option-header{
+    padding-top: 16px;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    /* position: relative; */
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
 .premium-option-button-free-month-text {
     border-radius: 4px;
     font-size: 14px;
@@ -374,11 +387,11 @@
     list-style: none;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
     margin-inline-start: 0px;
     /* margin-inline-end: 0px; */
-    padding-inline-start: 40px;
+    /* padding-inline-start: 40px; */
     font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
     overflow-wrap: break-word;
     font-size: 16px;

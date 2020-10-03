@@ -668,3 +668,17 @@
     justify-content: center;
     margin-bottom: 60px;
 }
+/* ----------main----------- */
+.main-content{
+    display:flex;
+    justify-content: center;
+    background: rgb(248, 248, 248);
+}
+.main-content-internal{
+    /* display: flex;
+    justify-content: space-between;*/
+    flex:1; 
+    max-width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}

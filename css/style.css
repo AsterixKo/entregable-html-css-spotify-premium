@@ -377,7 +377,7 @@
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    /* margin-inline-end: 0px; */
     padding-inline-start: 40px;
     font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
     overflow-wrap: break-word;
@@ -681,4 +681,65 @@
     max-width: 1170px;
     padding-top: 80px;
     padding-bottom: 30px;
+}
+/* ------grid of main------------ */
+.select-premium-options{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "premium-header-1 premium-header-2 premium-header-3 premium-header-4"
+    "premium-options-1 premium-options-2 premium-options-3 premium-options-4"
+    "premium-button-1 premium-button-2 premium-button-3 premium-button-4"
+    "premium-conditions-1 premium-conditions-2 premium-conditions-3 premium-conditions-4";
+}
+.premium-header-pos-1{
+    grid-area: premium-header-1;
+}
+.premium-header-pos-2{
+    grid-area: premium-header-2;
+}
+.premium-header-pos-3{
+    grid-area: premium-header-3;
+}
+.premium-header-pos-4{
+    grid-area: premium-header-4;
+}
+
+.premium-options-pos-1{
+    grid-area: premium-options-1;
+}
+.premium-options-pos-2{
+    grid-area: premium-options-2;
+}
+.premium-options-pos-3{
+    grid-area: premium-options-3;
+}
+.premium-options-pos-4{
+    grid-area: premium-options-4;
+}
+
+.premium-button-pos-1{
+    grid-area: premium-button-1;
+}
+.premium-button-pos-2{
+    grid-area: premium-button-2;
+}
+.premium-button-pos-3{
+    grid-area: premium-button-3;
+}
+.premium-button-pos-4{
+    grid-area: premium-button-4;
+}
+
+.premium-conditions-pos-1{
+    grid-area: premium-conditions-1;
+}
+.premium-conditions-pos-2{
+    grid-area: premium-conditions-2;
+}
+.premium-conditions-pos-3{
+    grid-area: premium-conditions-3;
+}
+.premium-conditions-pos-4{
+    grid-area: premium-conditions-4;
 }

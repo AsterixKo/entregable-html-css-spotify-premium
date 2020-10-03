@@ -253,3 +253,255 @@
     border-radius: 10px 10px 0px 0px;
     box-shadow: rgb(255, 255, 255) 0px 8px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
 }
+
+/* SELECT PREMIUM */
+.select-premium-title{
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    display: block;
+    padding: 0px 0px 1em;
+    color: #222326;
+}
+
+.premium-option-button-free-month-text {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: inline-block;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    background-color: rgb(46, 119, 208);
+    color: rgb(255, 255, 255);
+    margin: .5em 0 1em;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+}
+
+.premium-option-title{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    display: block;
+    letter-spacing: 0.25px;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    overflow-wrap: break-word;
+}
+
+.premium-option-price{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    color: #222326;
+}
+
+.premium-option-account-number{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px 0px 2px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    color: #222326;
+}
+
+.premium-option-hr{
+    align-self: stretch;
+    border-color: rgb(204, 204, 204);
+    margin: auto 0px 0px;
+    border: 0;
+    border-top: 1px solid #EFEFEF;
+    box-sizing: content-box;
+    height: 0;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+}
+
+.premium-option-ul{
+    padding-top: 20px;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    padding: 32px 20px 16px;
+    list-style: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+}
+
+.premium-option-li{
+    display: flex;
+    margin-bottom: 5px;
+    text-align: -webkit-match-parent;
+    list-style: none;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+}
+
+.premium-option-li-icon{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0px 10px 0px 0px;
+    list-style: none;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+}
+
+.premium-option-li-text {
+    line-height: 22px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 16px;
+}
+
+.premium-option-start{
+    padding-bottom: 16px;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+}
+
+.premium-option-start-link{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none !important;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    border: 0px;
+    border-radius: 500px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    user-select: none;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 17px 48px;
+    position: relative;
+    background-color: rgb(29, 185, 84);
+    color: rgb(255, 255, 255);
+    overflow-wrap: break-word;
+}
+
+.premium-option-conditions{
+    padding-top: 4px;
+    padding-bottom: 16px;
+    margin: 0px 16px 0px 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    width: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgb(255, 255, 255) 0px -9px 0px 0px, rgba(0, 0, 0, 0.3) 0px 0px 8px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+}
+
+.premium-option-conditions-text{
+    color: rgb(83, 83, 83);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: .5em 0 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+}
+
+.premium-option-conditions-link{
+    color: rgb(83, 83, 83);
+    text-decoration: underline;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    font-family: spotify-circular, Circular, Helvetica, Arial, sans-serif;
+    overflow-wrap: break-word;
+}

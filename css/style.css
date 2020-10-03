@@ -535,7 +535,16 @@
     line-height: 1.5;
     /* color: #222326; */
     color: #919496;
+
+    display: flex;
+    justify-content: center;
 }
+.footer-container{
+    flex:1; 
+    max-width: 1170px;
+}
+
+
 
 .footer-ul{
     margin-bottom: 0;
@@ -545,12 +554,16 @@
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    /* padding-inline-start: 40px; */
     font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
     font-size: 16px;
     line-height: 1.5;
     /* color: #222326; */
     color: #919496;
+    display: flex;
+}
+.footer-li{
+    margin-left: 30px;
 }
 
 .flag-icon{
@@ -562,9 +575,11 @@
     font-size: 18px;
     height: 1em;
     width: 1.33333333em;
+    margin-left: 10px;
 }
 
 .footer-link {
+    text-decoration: none;
     padding: 30px 0 20px;
     background: #000;
     display: block;
@@ -575,11 +590,23 @@
     color: #919496;
 }
 
+.footer-lang{
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copy{
+    margin-top: 50px;
+}
+
 /* ALINEACION PRINCIPAL*/
 .global-container{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 80px auto auto auto auto 80px;
+    grid-template-rows: 80px auto auto auto auto auto;
     grid-template-areas: "header"
     "view-plans"
     "estudent-premium"
